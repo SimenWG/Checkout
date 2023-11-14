@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+</style>
+
+<body>
+    <h1 style="text-align: center;">Checkout</h1>
+    <div class="left">
+
+        <div class="hoved1">
+            <div>
+                <h3>Contact Information</h3>
+            </div>
+            <form action="get" class="form">
+                <p>Email</p>
+
+                <div class="icon">
+                    <img src="./img/gmail-logo-24.png">
+                    <input type="text" name="email" id="email" placeholder="Enter your email..." required>
+                </div>
+                <p>Phone</p>
+                <div class="icon">
+                    <img src="./img/phone-solid-24.png">
+                    <input type="text" name="phone" id="phone" placeholder="Enter your phone..." required>
+                </div>
+                <br>
+                <br><br>
+                <h3>Shipping Address</h3>
+                <p>Full name</p>
+
+                <div class="icon">
+                    <img src="./img/child-regular-24.png">
+                    <input type="text" name="navn" id="navn" placeholder="Enter your full name..."required>
+                </div>
+
+                <p>Address</p>
+ 
+                <div class="icon">
+                    <img src="./img/buildings-regular-24.png">
+                    <input type="text" name="adress" id="adress" placeholder="Enter your adress..."required>
+                </div>
+
+                <p>City</p>
+
+                <div class="icon">
+                    <img src="./img/house.png">
+                    <input type="text" name="city" id="city" placeholder="Enter your city..."required>
+                </div>
+
+                <table>
+                    <tr>
+                        <td>Country</td>
+                        <td>Post Code</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="icon">
+                                <img src="./img/world-regular-24.png" alt="">
+                                <select name="country" id="country">
+                                    <option label="Turkey" value="Turkey"></option>
+                                    <option label="Albania" value="Albania"></option>
+                                    <option label="Serbia" value="Serbia"></option>
+                                </select>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="icon">
+                                <img src="./img/barcode-reader-regular-24.png" alt="">
+                                <input type="text" placeholder="Enter your postal code..." required>
+                            </div>
+                        </td>
+                    </tr>
+                    <div>
+                        <br>
+                        <td>
+                            <input type="checkbox" name="" id="" label="check1">
+                            <label for="check1" style="font-size: small;">See this information next time</label>
+                        </td>
+                    </div>
+                </table>
+        </div>
+        <div class="right">
+
+            <div class="div1">
+                <img class="img1" src="./img/photo1.png" alt="">
+                <div>
+                    <div>
+                        <h4 style="color: black;" class="text1">Vintage Backpack</h4>
+                        <h4 style="color: orangered;" class="text1">$54.99 <s
+                                style="font-size: small; color: darkgray;">$94.99</s></h4>
+                    </div>
+                    <div class="plus">
+                        <img src="./img/minus-regular-24.png" alt="">
+                        <p>1</p>
+                        <img src="./img/plus-medical-regular-24.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="div2">
+                <img class="img1" src="./img/photo2.png" alt="">
+                <div>
+                    <div>
+                        <h4 style="color: black;" class="text1">Levi Shoes</h4>
+                        <h4 style="color: orangered;" class="text1">$74.99 <s
+                                style="font-size: small; color: darkgray;">$124.99</s></h4>
+                    </div>
+                    <div class="plus">
+                        <img src="./img/minus-regular-24.png" alt="">
+                        <p>1</p>
+                        <img src="./img/plus-medical-regular-24.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="price">
+                    <h3>Shipping: $19</h3>
+                </div>
+                <br>
+                <div class="price">
+                    <h3>Total: $148.98</h3>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+    </div>
+    </form>
+    <div class="btn">
+        <form action="get">
+        <button type="submit">
+            Continue
+        </button>
+    </form>
+    </div>
+</body>
+
+</html>
